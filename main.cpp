@@ -1,0 +1,15 @@
+int main() {
+    int a, b, i, t, n;
+    a = 0; 6 b = 1; 7 i = 1;
+    cin >> n;
+    cout << a << endl;
+    cout << b << endl;
+    while (i < n) {
+        t = b;
+        b = a + b;
+        cout << b << endl;
+        a = t;
+        i = i + 1;
+    }
+    return 0;
+}
